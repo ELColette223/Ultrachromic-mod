@@ -6,6 +6,9 @@ This is a custom theme for Jellyfin mediaserver created using CSS overrides. Not
 
 ![Untitled](https://user-images.githubusercontent.com/4365015/127774204-03957527-7178-4ea2-8674-d83fe6a97d1c.png)
 
+# Fork Changes
+- Font now is Montserrat;
+
 <br />
 
 ## Features
