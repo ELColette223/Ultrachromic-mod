@@ -23,3 +23,5 @@
 .backdropImage {
   filter: blur(18px) saturate(120%) contrast(120%) brightness(40%);
 }
+
+.guideChannelNumber {display: none;}
