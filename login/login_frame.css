@@ -8,6 +8,10 @@
   margin-top: 8em
 }
 
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+  margin-top: 0.5em;
+}
+
 #loginPage .padded-left.padded-right.padded-bottom-page {
     margin-left: auto;
     margin-right: auto;
