@@ -33,3 +33,26 @@
     padding-left: 23.45vw !important;
   }
 }
+
+/* Fix for color count indicator on UI */
+.countIndicator.indicator,
+.button-submit {
+  color: white;
+}
+
+.cancel.btnQuick.emby-button {
+  color: #bebebe;
+}
+
+/* Remove background from dark theme */
+.noBackdropTransparency .detailPageWrapperContainer {
+  background-color: transparent !important;
+}
+
+.detailPageSecondaryContainer.padded-left.padded-bottom-page {
+  z-index: 9999;
+}
+
+.mediaInfoText {
+  border-radius: 1em;
+}

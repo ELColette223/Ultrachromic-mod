@@ -38,12 +38,23 @@ div[data-role="controlgroup"] a[data-role="button"] {
 }
 
 /*Stop covers from being scrolled on desktop*/
+.layout-desktop .detailPagePrimaryContainer {
+    /* clip (not hidden) cuts the sticky card at the container's bottom edge
+       without creating a new BFC that would break sticky positioning */
+    overflow: clip;
+}
+.layout-desktop .detailImageContainer {
+    position: static;
+    align-self: stretch; /* stretch to full container height so sticky travels far enough */
+}
 .layout-desktop .detailImageContainer .card {
-    position: fixed !important;
-    top: 10% !important;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 10% !important;
+  z-index: 10 !important;
 }
 .layout-mobile .detailImageContainer .card {
-    position: absolute !important;
+  position: absolute !important;
 }
 /*Top "task bar" enlarge text*/
 .headerTabs.sectionTabs {
