@@ -20,7 +20,7 @@
   #moviesPage,
   #tvRecommendedPage,
   #musicRecommendedPage {
-    margin-top: 130px;
+    margin-top: 50px;
     padding-top: 0.5em !important;
     overflow-y: scroll;
   }
